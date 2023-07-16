@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb0630b-be5a-4d34-8b17-0a3905705035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/user-photos/26/366x218-ilker-ayrik-kimdir-1516194635641.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/user-photos/26/Mike Gates.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -265,7 +263,9 @@
       <workItem from="1687514965988" duration="8635000" />
       <workItem from="1688411679592" duration="762000" />
       <workItem from="1688813941905" duration="5888000" />
-      <workItem from="1688846434420" duration="1007000" />
+      <workItem from="1688846434420" duration="1542000" />
+      <workItem from="1688894021032" duration="346000" />
+      <workItem from="1689497687323" duration="2313000" />
     </task>
     <servers />
   </component>
