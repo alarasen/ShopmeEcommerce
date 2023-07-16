@@ -28,15 +28,17 @@ public class UserController { //controller->service->repo
 
     @GetMapping("/users")
     public String listFirstPage(Model model){
-        return listByPage(1,model,"firstName","asc");
+        return listByPage(1,model,"firstName","asc",null);
     }
 
     @GetMapping("/users/list/{pageNum}")
     public String listByPage(@PathVariable(name="pageNum") int pageNum, Model model,
-                             @Param("sortField") String sortField, @Param("sortDir") String sortDir ){
+                             @Param("sortField") String sortField, @Param("sortDir") String sortDir,
+                             @Param("keyword") String keyword
+                             ){
         System.out.println("Sort Field: "+sortField);
         System.out.println("Sort Dir: "+sortDir);
-        Page<User> page = service.listByPage(pageNum,sortField, sortDir);
+        Page<User> page = service.listByPage(pageNum,sortField, sortDir,keyword);
         List<User> listUsers = page.getContent();
 
         long startCount=(pageNum-1)*UserService.USERS_PER_PAGE+1;
@@ -56,6 +58,7 @@ public class UserController { //controller->service->repo
         model.addAttribute("sortField",sortField);
         model.addAttribute("sortDir",sortDir);
         model.addAttribute("reverseSortDir",revereSortDir);
+        model.addAttribute("keyword",keyword);
         return "users";
 
 
