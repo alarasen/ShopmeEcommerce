@@ -66,18 +66,9 @@
 		<table class="table table-bordered table-striped table-hover table-responsive-xl">
 			<thead class="table-dark">
 			<tr>
-				<th>
-					<a th:if="${sortField!='Id'}" class="text-white"
-					   th:href="@{'/users/list/' + ${currentPage} + '?sortField=Id&sortDir='+${sortDir}+${keyword!=null ? '&keyword=' + keyword:''}}">
-						User Id</a>
-					<a th:if="${sortField =='Id'}" class="text-white"
-					   th:href="@{'/users/list/' + ${currentPage} + '?sortField=Id&sortDir='+${reverseSortDir}+${keyword!=null ? '&keyword=' + keyword:''}}">
-						User Id</a>
 
-					<span th:if="${sortField=='Id'}"
-						  th:class="${sortDir=='asc' ? 'fas fa-sort-up':'fas fa-sort-down'}"></span>
+				<th th:replace="fragments::column_link('id','User ID')"/>
 
-				</th>
 				<th>
 					<a th:if="${sortField!='photos'}" class="text-white"
 					   th:href="@{'/users/list/' + ${currentPage} + '?sortField=email&sortDir='+${sortDir}}">

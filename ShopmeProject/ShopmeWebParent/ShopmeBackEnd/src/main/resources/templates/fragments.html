@@ -4,17 +4,13 @@
     <title>Document</title>
 </head>
 <body>
-    <th th:fragment="column_link(fieldName,columnLabel)">
-        <a th:if="${sortField!='fieldName'}" class="text-white"
-           th:href="@{'/users/list/' + ${currentPage} + '?sortField=Id&sortDir='+${sortDir}+${keyword!=null ? '&keyword=' + keyword:''}}">
-            User Id</a>
-        <a th:if="${sortField =='Id'}" class="text-white"
-           th:href="@{'/users/list/' + ${currentPage} + '?sortField=Id&sortDir='+${reverseSortDir}+${keyword!=null ? '&keyword=' + keyword:''}}">
-            User Id</a>
-
-        <span th:if="${sortField=='Id'}"
-              th:class="${sortDir=='asc' ? 'fas fa-sort-up':'fas fa-sort-down'}"></span>
-
-    </th>
+<th th:fragment="column_link(fieldName, columnLabel)">
+<a class="text-white"
+   th:href="@{'/users/list/' + ${currentPage} + '?sortField=' + ${fieldName}  +'&sortDir=' + ${sortField != fieldName ? sortDir : reverseSortDir} + ${keyword != null ? '&keyword=' + keyword : ''} + ${categoryId != null ? '&categoryId=' + categoryId : ''}}">
+    [[${columnLabel}]]
+</a>
+<span th:if="${sortField == fieldName}"
+      th:class="${sortDir == 'asc' ? 'fas fa-sort-up' : 'fas fa-sort-down'}" ></span>
+</th>
 </body>
 </html>
