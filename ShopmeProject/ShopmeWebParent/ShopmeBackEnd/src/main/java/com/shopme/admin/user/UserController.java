@@ -97,8 +97,14 @@ public class UserController { //controller->service->repo
 
         //service.save(user);
         redirectAttributes.addFlashAttribute("message","The user has been saved succesfully.");//in order to control the successful message
-        return "redirect:/users";
+        return getRedirectURLtoAffectedUser(user);
     }
+
+    private static String getRedirectURLtoAffectedUser(User user) {
+        String firstPartOfEmail= user.getEmail().split("@")[0];
+        return "redirect:/users/list/1?sortField=firstName&sortDir=asc&keyword=" + firstPartOfEmail;
+    }
+
     @GetMapping("/users/edit/{id}")
     public String editUser(@PathVariable(name="id") Integer id,
                            Model model,
