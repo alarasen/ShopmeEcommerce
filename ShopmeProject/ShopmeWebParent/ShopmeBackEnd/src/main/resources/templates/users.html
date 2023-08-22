@@ -79,9 +79,6 @@
 
 				<th th:replace="fragments::column_link('lastName','Last Name')"/>
 
-				<th th:replace="fragments::column_link('enabled','Enabled')"/>
-
-
 
 
 				<th>
@@ -96,6 +93,8 @@
 						  th:class="${sortDir=='asc' ? 'fas fa-sort-up':'fas fa-sort-down'}"></span>
 
 				</th>
+
+				<th th:replace="fragments::column_link('enabled','Enabled')"/>
 
 			</tr>
 			</thead>
