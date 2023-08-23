@@ -3,7 +3,6 @@ package com.shopme.admin.user;
 import com.shopme.common.entity.Role;
 import com.shopme.common.entity.User;
 import jakarta.transaction.Transactional;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
@@ -21,17 +20,20 @@ public class UserService {
     public static final int USERS_PER_PAGE=20;
 
 
-    @Autowired
     private UserRepository repo;
 
-    @Autowired
     private RoleRepository roleRepo;
 
-    @Autowired
     private PasswordEncoder passwordEncoder;
 
+    public UserService(UserRepository repo, RoleRepository roleRepo, PasswordEncoder passwordEncoder) {
+        this.repo = repo;
+        this.roleRepo = roleRepo;
+        this.passwordEncoder = passwordEncoder;
+    }
+
     public List<User> listAll(){
-        return (List<User>) repo.findAll();
+        return (List<User>) repo.findAll(Sort.by("firstName").ascending());
     }
 
     public Page<User> listByPage(int pageNum,String sortField, String sortDir,String keyword){
