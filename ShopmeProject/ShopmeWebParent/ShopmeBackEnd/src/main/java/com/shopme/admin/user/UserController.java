@@ -165,7 +165,6 @@ public class UserController { //controller->service->repo
         List<User> listUsers = service.listAll();
 
         UserExcelExporter exporter=new UserExcelExporter();
-
         exporter.export(listUsers,response);
 
     }
