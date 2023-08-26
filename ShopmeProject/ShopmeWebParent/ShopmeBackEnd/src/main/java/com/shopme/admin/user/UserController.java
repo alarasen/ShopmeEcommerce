@@ -168,6 +168,14 @@ public class UserController { //controller->service->repo
         exporter.export(listUsers,response);
 
     }
+    @GetMapping("/users/export/pdf")
+    public void exportToPdf(HttpServletResponse response) throws IOException {
+        List<User> listUsers = service.listAll();
+
+        UserPdfExporter exporter=new UserPdfExporter();
+        exporter.export(listUsers,response);
+
+    }
 
 
 
