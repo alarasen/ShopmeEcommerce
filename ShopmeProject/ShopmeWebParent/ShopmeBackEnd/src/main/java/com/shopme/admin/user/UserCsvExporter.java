@@ -15,18 +15,11 @@ import java.util.Date;
 import java.util.List;
 
 @Service
-public class UserCsvExporter {
+public class UserCsvExporter extends AbstractExporter {
 
     public void export(List<User> users, HttpServletResponse response) throws IOException {
-        DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd_HH-mm-ss");
-        String timestamp = dateFormatter.format(new Date());
-        String fileName = "users_" + timestamp + ".csv";
+        super.setResponseHeader(response,"text/csv",".csv");
 
-        response.setContentType("text/csv");
-
-        String headerKey = "Content-Disposition";
-        String headerValue = "attachment; filename=" + fileName;
-        response.setHeader(headerKey, headerValue);
 
         ICsvBeanWriter csvWriter = new CsvBeanWriter(response.getWriter(),
                 CsvPreference.STANDARD_PREFERENCE);
