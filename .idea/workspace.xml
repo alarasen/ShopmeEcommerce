@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb0630b-be5a-4d34-8b17-0a3905705035" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserPdfExporter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/users.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserPdfExporter.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/user/UserPdfExporter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,11 +192,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.UserRepositoryTests.testSearchUsers" />
-      <item itemvalue="JUnit.UserRepositoryTests.testListFirstPage" />
       <item itemvalue="JUnit.UserRepositoryTests.testCountById" />
       <item itemvalue="JUnit.UserRepositoryTests.testDisableUser" />
       <item itemvalue="JUnit.UserRepositoryTests.testEnableUser" />
+      <item itemvalue="JUnit.UserRepositoryTests.testListFirstPage" />
+      <item itemvalue="JUnit.UserRepositoryTests.testSearchUsers" />
       <item itemvalue="Spring Boot.ShopmeBackEndApplication" />
       <item itemvalue="Spring Boot.ShopmeFrontEndApplication" />
     </list>
@@ -284,7 +281,10 @@
       <workItem from="1692808679250" duration="3138000" />
       <workItem from="1692984107266" duration="2581000" />
       <workItem from="1693033986042" duration="4025000" />
-      <workItem from="1693040516890" duration="2082000" />
+      <workItem from="1693040516890" duration="3131000" />
+      <workItem from="1693044845831" duration="4000" />
+      <workItem from="1693071984809" duration="228000" />
+      <workItem from="1693125248223" duration="152000" />
     </task>
     <servers />
   </component>
