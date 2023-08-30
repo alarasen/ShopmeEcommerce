@@ -4,7 +4,7 @@
     <title>Document</title>
 </head>
 <body>
-<th th:fragment="column_link(fieldName, columnLabel)">
+<th th:fragment="column_link(fieldName, columnLabel,removeTag)" th:remove="${removeTag}">
 <a class="text-white"
    th:href="@{'/users/list/' + ${currentPage} + '?sortField=' + ${fieldName}  +'&sortDir=' + ${sortField != fieldName ? sortDir : reverseSortDir} + ${keyword != null ? '&keyword=' + keyword : ''} + ${categoryId != null ? '&categoryId=' + categoryId : ''}}">
     [[${columnLabel}]]

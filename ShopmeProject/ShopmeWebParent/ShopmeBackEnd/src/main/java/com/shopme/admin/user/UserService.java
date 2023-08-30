@@ -17,7 +17,7 @@ import java.util.NoSuchElementException;
 public class UserService {
 
 
-    public static final int USERS_PER_PAGE=20;
+    public static final int USERS_PER_PAGE=6;
 
 
     private UserRepository repo;
@@ -50,12 +50,6 @@ public class UserService {
    public List<Role> listRoles(){
         return (List<Role>) roleRepo.findAll();
    }
-
-   /*public void deneme(){
-        User user=repo.findById();
-        user.getEnabled().booleanValue()
-    }
-    */
 
     public User save(User user) {
         boolean isUpdatingUser=(user.getId()!=null);
