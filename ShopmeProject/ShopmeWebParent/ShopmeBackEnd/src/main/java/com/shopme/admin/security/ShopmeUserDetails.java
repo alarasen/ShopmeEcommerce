@@ -21,9 +21,7 @@ public class ShopmeUserDetails implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        System.out.println("sorun burda mı yoksa");
         Set<Role> roles=user.getRoles();
-        System.out.println("burda mi");
         List<SimpleGrantedAuthority> authories=new ArrayList<>();
 
         for(Role role:roles){

@@ -27,7 +27,7 @@ public class User {
     private String photos;
 
     private boolean enabled;
-    @ManyToMany // we used many to many because For example, in an e-commerce application, a user may need to have both the "Seller" and "Editor" roles. In this case, the ManyToMany relationship allows a user to have multiple roles and the same role to be shared by multiple users.
+    @ManyToMany(fetch = FetchType.EAGER) // we used many to many because For example, in an e-commerce application, a user may need to have both the "Seller" and "Editor" roles. In this case, the ManyToMany relationship allows a user to have multiple roles and the same role to be shared by multiple users.
     @JoinTable(
             name="users_roles",
             joinColumns = @JoinColumn(name = "user_id"), //defines foreign key

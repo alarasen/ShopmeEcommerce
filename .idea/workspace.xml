@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb0630b-be5a-4d34-8b17-0a3905705035" name="Changes" comment="Added Login Page for users">
-      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/user-photos/29/oguz.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeCommon/src/main/java/com/shopme/common/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetailsService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -302,7 +302,8 @@
       <workItem from="1694277194221" duration="20000" />
       <workItem from="1694343515422" duration="599000" />
       <workItem from="1694346116642" duration="188000" />
-      <workItem from="1694523491172" duration="2913000" />
+      <workItem from="1694523491172" duration="3090000" />
+      <workItem from="1694584683701" duration="856000" />
     </task>
     <task id="LOCAL-00001" summary="Added Login Page for users">
       <created>1694176119074</created>

@@ -16,7 +16,6 @@ public class ShopmeUserDetailsService implements UserDetailsService {
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
         User user = userRepo.getUserByEmail(email);
         if(user!=null){
-            System.out.println("null degilim");
             return new ShopmeUserDetails(user);
         }
         throw new UsernameNotFoundException("Could not find user with email: "+email);
