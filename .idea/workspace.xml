@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb0630b-be5a-4d34-8b17-0a3905705035" name="Changes" comment="Added Login Page for users">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/ShopmeUserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/java/com/shopme/admin/security/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/ShopmeBackEnd/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ShopmeProject/ShopmeWebParent/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.2",
-    "spring.configuration.checksum": "8295f975250199ecbc6e3c56dbaa59bc",
+    "spring.configuration.checksum": "2f1739484174070aeaf0890c91776e0a",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -309,6 +309,19 @@
       <workItem from="1694584683701" duration="1421000" />
       <workItem from="1694595036121" duration="55000" />
       <workItem from="1694980206254" duration="4649000" />
+      <workItem from="1695210466151" duration="355000" />
+      <workItem from="1695558397593" duration="1211000" />
+      <workItem from="1695732919635" duration="1143000" />
+      <workItem from="1695895744717" duration="1387000" />
+      <workItem from="1695907382276" duration="695000" />
+      <workItem from="1696005423271" duration="66000" />
+      <workItem from="1696891892843" duration="658000" />
+      <workItem from="1696929977671" duration="732000" />
+      <workItem from="1697891117372" duration="8000" />
+      <workItem from="1697891143726" duration="3000" />
+      <workItem from="1697891161404" duration="19000" />
+      <workItem from="1697905488739" duration="11000" />
+      <workItem from="1698109038489" duration="3030000" />
     </task>
     <task id="LOCAL-00001" summary="Added Login Page for users">
       <created>1694176119074</created>
